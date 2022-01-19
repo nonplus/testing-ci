@@ -7,7 +7,7 @@ class TestIsOdd(unittest.TestCase):
         self.assertEqual(respond("What is your name?"), "My name is chatbot! What's yours?")
 
     def test_dont_understand(self):
-      self.assertEqual(respond("Blah?"), "Sorry I didn't understand that.")
+      self.assertEqual(respond("Blah?"), "Sorry I did not understand that.")
 
 if __name__ == '__main__':
     unittest.main()
